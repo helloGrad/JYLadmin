@@ -23,14 +23,10 @@
 	<div class="container">
 
 		<div class="row">
-			<h3>연구실 공고 페이지</h3>
-			<div class="col-lg-4 centering">
 
-				<a id="gradBtn" class="btn btn-info"
-					href="${pageContext.servletContext.contextPath }/noti/grad">대학원
-					더보기</a> <a id="labBtn" class="btn btn-info"
-					href="${pageContext.servletContext.contextPath }/noti/lab">연구실
-					더보기</a>
+			<div class="col-lg-4 centering">
+				<h3>연구실 공고 페이지</h3>
+				<c:import url="/WEB-INF/views/noti/include/menu.jsp" />
 			</div>
 		</div>
 		<hr class="nav-line">
