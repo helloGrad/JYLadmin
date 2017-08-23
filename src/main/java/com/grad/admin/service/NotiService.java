@@ -45,6 +45,9 @@ public class NotiService {
 		notiDao.insertNoti(map);		
 	}
 
+	/*
+	 * 정예린
+	 */
 
 	public void updateNoti(String tabnm, NotiVo notiVo) {
 		Map<String, Object> map = new HashMap<String, Object>();
